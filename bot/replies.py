@@ -4,7 +4,7 @@ from tinydb import TinyDB, Query
 from tools.scraper import Scraper
 
 async def welcome(activity, bot):
-    await bot.send_text_activity(activity, "Hi, I am the Vardhaman Bot.")
+    await bot.send_text_activity(activity, "Hey, I am the Vardhaman Bot.")
     await bot.send_text_activity(activity, "For, advanced features, please authenticate.")
     await bot.send_text_activity(activity, "To authenticate, enter your roll no. and web access key seperated by a space.")
 
