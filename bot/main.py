@@ -16,21 +16,28 @@ async def reply(activity):
     engine = tools.nlu.Engine()
     data = engine.parse(activity.text)
     intent = data.get_intent()
+    entities = data.get_entities()
     has_bad_words = tools.swear.detector(activity.text)
-    if not has_bad_words:
-        try:
-            print(intent)
-            reply_handler = getattr(replies, intent)
-            await reply_handler(activity, bot, data)
-        except (AttributeError, TypeError):
-            await replies.default(activity, bot, data)
-    else:
-        if has_bad_words:
-            print("curse")
-            reply = random.choice(["Zaban sambhaal ke bath karna", "Close your filthy mouth and then try me", "Don't think cussing is cool"])
-            await bot.send_text_activity(activity, reply)
+    if activity.text != "Get Started":
+        if not has_bad_words:
+            try:
+                print(intent)
+                print(entities)
+                reply_handler = getattr(replies, intent)
+                await reply_handler(activity, bot, data)
+            except (AttributeError, TypeError):
+                await replies.default(activity, bot, data)
         else:
-            print("default")
-            await replies.default(activity, bot, data)
+            if has_bad_words:
+                print("curse")
+                print(entities)
+                reply = random.choice(["Zaban sambhaal ke bath karna", "Close your filthy mouth and then try me", "Don't think cussing is cool"])
+                await bot.send_text_activity(activity, reply)
+            else:
+                print("default")
+                print(entities)
+                await replies.default(activity, bot, data)
+    else:
+        await replies.welcome(activity, bot)
 
 tools.server.start(bot)

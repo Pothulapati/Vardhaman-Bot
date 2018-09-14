@@ -4,8 +4,9 @@ def detector(text):
     has_bad_word = False
     words = text.split(" ")
     for word in words:
+        fword = word.strip(" \n\t\r.")
         for bad_word in bad_words:
-            if word == bad_word:
+            if fword == bad_word:
                 has_bad_word = True
                 break
     return has_bad_word
