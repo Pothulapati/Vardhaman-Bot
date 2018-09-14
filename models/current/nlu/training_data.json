@@ -1,0 +1,704 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good night"
+      },
+      {
+        "intent": "greet",
+        "text": "start"
+      },
+      {
+        "intent": "greet",
+        "text": "begin"
+      },
+      {
+        "intent": "about",
+        "text": "i want to know about the college"
+      },
+      {
+        "intent": "about",
+        "text": "i wanna know about the college"
+      },
+      {
+        "intent": "about",
+        "text": "tell me about the college"
+      },
+      {
+        "intent": "about",
+        "text": "tell me about this college- good night"
+      },
+      {
+        "intent": "about",
+        "text": "i wanna know about vardhaman"
+      },
+      {
+        "intent": "about",
+        "text": "i wanna know about this college"
+      },
+      {
+        "intent": "about",
+        "text": "i want toknow about this college"
+      },
+      {
+        "intent": "about",
+        "text": "tell me about vardhaman"
+      },
+      {
+        "intent": "about",
+        "text": "tell something about vardhaman"
+      },
+      {
+        "intent": "about",
+        "text": "tell something about this college"
+      },
+      {
+        "intent": "appreciation",
+        "text": "good job"
+      },
+      {
+        "intent": "appreciation",
+        "text": "great job"
+      },
+      {
+        "intent": "appreciation",
+        "text": "awesome"
+      },
+      {
+        "intent": "appreciation",
+        "text": "great"
+      },
+      {
+        "intent": "appreciation",
+        "text": "good"
+      },
+      {
+        "intent": "appreciation",
+        "text": "cool"
+      },
+      {
+        "intent": "appreciation",
+        "text": "nice"
+      },
+      {
+        "intent": "appreciation",
+        "text": "nice job"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thx"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "thanks",
+        "text": "i am thankful"
+      },
+      {
+        "intent": "thanks",
+        "text": "million thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a ton"
+      },
+      {
+        "intent": "authenticate",
+        "text": "14881a05a2 #bhyg"
+      },
+      {
+        "intent": "authenticate",
+        "text": "14881a05b7 #zhy2"
+      },
+      {
+        "intent": "authenticate",
+        "text": "14881a345b #4yz3"
+      },
+      {
+        "intent": "authenticate",
+        "text": "152831qa78 #a9h6"
+      },
+      {
+        "intent": "authenticate",
+        "text": "15881a04yb #ax12"
+      },
+      {
+        "intent": "authenticate",
+        "text": "16881a0554 #a9b7"
+      },
+      {
+        "intent": "authenticate",
+        "text": "16881a0575 #zy89"
+      },
+      {
+        "intent": "authenticate",
+        "text": "16881a0595 #1a2y"
+      },
+      {
+        "intent": "authenticate",
+        "text": "16881a0596 #zm12"
+      },
+      {
+        "intent": "authenticate",
+        "text": "16881a05a4 #av3y"
+      },
+      {
+        "intent": "authenticate",
+        "text": "16881a05g5 #3y7z"
+      },
+      {
+        "intent": "authenticate",
+        "text": "16881a05g5 #b678"
+      },
+      {
+        "intent": "authenticate",
+        "text": "17662b047y #az57"
+      },
+      {
+        "intent": "authenticate",
+        "text": "17881a05b3 #y1hz"
+      },
+      {
+        "intent": "authenticate",
+        "text": "18881a0560 #zm23"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "attendance"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "i wanna know my attendance"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "i want to know my attendance"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "i would like to know my attendance"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "show me my attendance"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "what's my attendance"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "what is my attendance"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "tell my attendance"
+      },
+      {
+        "intent": "attendance_enquiry",
+        "text": "tell me my attendance"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "1st semester gpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "cgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "i wanna know my 2nd semester sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "i wanna know my cgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "i wanna know my gpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "i wanna know my sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me first semester gpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me first semester sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me my cgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me my fourth semester sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me my gpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me my seventh sems sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me my sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me third sem sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "tell me third semester sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "what is my cgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "what is my gpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "what was my fourth sem's sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "whats my cgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "what's my cgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "whats my fifth semester sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "whats my first semester gpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "what's my first semester sgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "whats my gpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "what's my second semester cgpa"
+      },
+      {
+        "intent": "gpa_enquiry",
+        "text": "what's my sgpa"
+      },
+      {
+        "intent": "suggestions",
+        "text": "i wanna give a suggestion"
+      },
+      {
+        "intent": "suggestions",
+        "text": "i want to give a suggestion"
+      },
+      {
+        "intent": "suggestions",
+        "text": "i would like to give a suggestion"
+      },
+      {
+        "intent": "suggestions",
+        "text": "note down a suggestion"
+      },
+      {
+        "intent": "suggestions",
+        "text": "submit a suggestion"
+      },
+      {
+        "intent": "suggestions",
+        "text": "take a suggestion from me"
+      },
+      {
+        "intent": "suggestions",
+        "text": "take down a suggestion"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "civil",
+            "entity": "department"
+          }
+        ],
+        "text": "i wanna know the closing rank of civil"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "cse",
+            "entity": "department"
+          }
+        ],
+        "text": "i wanna know the closing rank of cse"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 33,
+            "end": 35,
+            "value": "it",
+            "entity": "department"
+          }
+        ],
+        "text": "i wanna know the closing rank of it"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "mechanical",
+            "entity": "department"
+          }
+        ],
+        "text": "i wanna know the closing rank of mechanical"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 35,
+            "end": 38,
+            "value": "ece",
+            "entity": "department"
+          }
+        ],
+        "text": "i want to know the closing rank of ece"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 35,
+            "end": 39,
+            "value": "mech",
+            "entity": "department"
+          }
+        ],
+        "text": "i want to know the closing rank of mech"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "civil",
+            "entity": "department"
+          }
+        ],
+        "text": "tell me the closing rank of civil"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "cse",
+            "entity": "department"
+          }
+        ],
+        "text": "tell me the closing rank of cse"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "ece",
+            "entity": "department"
+          }
+        ],
+        "text": "tell me the closing rank of ece"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 28,
+            "end": 30,
+            "value": "it",
+            "entity": "department"
+          }
+        ],
+        "text": "tell me the closing rank of it"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "mechanical",
+            "entity": "department"
+          }
+        ],
+        "text": "tell me the closing rank of mechanical"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "ece",
+            "entity": "department"
+          }
+        ],
+        "text": "tell me the closing ranks of ece"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "eee",
+            "entity": "department"
+          }
+        ],
+        "text": "what is the closing rank of eee"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "cse",
+            "entity": "department"
+          }
+        ],
+        "text": "whats the closing rank for cse"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 28,
+            "end": 30,
+            "value": "it",
+            "entity": "department"
+          }
+        ],
+        "text": "what's the closing rank for it"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "civil",
+            "entity": "department"
+          }
+        ],
+        "text": "whats the closing rank of civil"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 27,
+            "end": 59,
+            "value": "computer science and engineering",
+            "entity": "department"
+          }
+        ],
+        "text": "what's the closing rank of computer science and engineering"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "cse",
+            "entity": "department"
+          }
+        ],
+        "text": "what's the closing rank of cse"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "mechanical",
+            "entity": "department"
+          }
+        ],
+        "text": "whats the closing rank of mechanical"
+      },
+      {
+        "intent": "closingrank_enquiry",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "cse",
+            "entity": "department"
+          }
+        ],
+        "text": "whats the closing ranks of cse"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "i wanna know todays timetable"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "tell me monday's timetable"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "tell me todays timetable"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what do i have today"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what is my schedule"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what is the timetable for today"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what periods do i have on monday"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what periods do i have today"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "whats my schedule"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what's my schedule"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "whats my schedule for friday"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what's my schedule today"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what's my timetable"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "whats the schedule"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what's the timetable for tomorrow"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "what's today's timetable"
+      },
+      {
+        "intent": "timetable_enquiry",
+        "text": "1[4-9]{1}[A-Z,0-9]{4}[A-Z,0-9]{1}[0-9,A-Z]{3} #[A-Z,0-9]{4}"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

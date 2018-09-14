@@ -1,0 +1,15 @@
+{
+    "name": "vardhaman-bot",
+    "description": "A bot for Vardhaman College of Engineering",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "",
+            "id": "04a61b10-b4c2-11e8-b334-81923890fada",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "http://localhost:8080/",
+            "name": "vardhaman-bot"
+        }
+    ]
+}
