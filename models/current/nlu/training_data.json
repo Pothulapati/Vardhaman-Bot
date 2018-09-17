@@ -258,108 +258,168 @@
         "text": "tell me my attendance"
       },
       {
-        "intent": "gpa_enquiry",
-        "text": "1st semester gpa"
+        "intent": "sgpa_enquiry",
+        "text": "sgpa"
       },
       {
-        "intent": "gpa_enquiry",
-        "text": "cgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "2nd",
+            "entity": "semester"
+          }
+        ],
         "text": "i wanna know my 2nd semester sgpa"
       },
       {
-        "intent": "gpa_enquiry",
-        "text": "i wanna know my cgpa"
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "2nd",
+            "entity": "semester"
+          }
+        ],
+        "text": "I wanna know my 2nd semester gpa"
       },
       {
-        "intent": "gpa_enquiry",
-        "text": "i wanna know my gpa"
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "1st",
+            "entity": "semester"
+          }
+        ],
+        "text": "tell me my 1st semester gpa"
       },
       {
-        "intent": "gpa_enquiry",
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "3rd",
+            "entity": "semester"
+          }
+        ],
+        "text": "I want to know my 3rd semester sgpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "5th",
+            "entity": "semester"
+          }
+        ],
+        "text": "Tell me my 5th semester gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "1st",
+            "entity": "semester"
+          }
+        ],
+        "text": "1st semester sgpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "4th",
+            "entity": "semester"
+          }
+        ],
+        "text": "4th semester sgpa pls"
+      },
+      {
+        "intent": "sgpa_enquiry",
         "text": "i wanna know my sgpa"
       },
       {
-        "intent": "gpa_enquiry",
-        "text": "tell me first semester gpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "tell me first semester sgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "tell me my cgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "tell me my fourth semester sgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "tell me my gpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "tell me my seventh sems sgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "tell me my sgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "tell me third sem sgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "tell me third semester sgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "what is my cgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "what is my gpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "what was my fourth sem's sgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "whats my cgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "what's my cgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
+        "intent": "sgpa_enquiry",
         "text": "whats my fifth semester sgpa"
       },
       {
-        "intent": "gpa_enquiry",
+        "intent": "sgpa_enquiry",
         "text": "whats my first semester gpa"
       },
       {
-        "intent": "gpa_enquiry",
+        "intent": "sgpa_enquiry",
         "text": "what's my first semester sgpa"
       },
       {
-        "intent": "gpa_enquiry",
+        "intent": "sgpa_enquiry",
+        "text": "tell me first semester gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "text": "tell me first semester sgpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "text": "tell me my fourth semester sgpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "text": "tell me third sem sgpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "text": "tell me third semester sgpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "cgpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "i wanna know my cgpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "i wanna know my gpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "tell me my cgpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "tell me my gpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "what is my cgpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "what is my gpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "whats my cgpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
+        "text": "what's my cgpa"
+      },
+      {
+        "intent": "cgpa_enquiry",
         "text": "whats my gpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "what's my second semester cgpa"
-      },
-      {
-        "intent": "gpa_enquiry",
-        "text": "what's my sgpa"
       },
       {
         "intent": "suggestions",
@@ -699,6 +759,7 @@
       }
     ],
     "regex_features": [],
+    "lookup_tables": [],
     "entity_synonyms": []
   }
 }

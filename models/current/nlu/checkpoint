@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/sripravan/projects/xbot/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "/home/sripravan/projects/xbot/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
+model_checkpoint_path: "/home/tarun/work/vardhaman-bot/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/tarun/work/vardhaman-bot/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"

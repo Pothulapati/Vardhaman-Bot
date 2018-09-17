@@ -74,33 +74,36 @@
 - tell my attendance
 - tell me my attendance
 
-## intent:gpa_enquiry
-- 1st semester gpa
-- cgpa
-- i wanna know my 2nd semester sgpa
-- i wanna know my cgpa
-- i wanna know my gpa
+## intent:sgpa_enquiry
+- sgpa
+- i wanna know my [2nd](semester) semester sgpa
+- I wanna know my [2nd](semester) semester gpa
+- tell me my [1st](semester) semester gpa
+- I want to know my [3rd](semester) semester sgpa
+- Tell me my [5th](semester) semester gpa
+- [1st](semester) semester sgpa
+- [4th](semester) semester sgpa pls
 - i wanna know my sgpa
-- tell me first semester gpa
-- tell me first semester sgpa
-- tell me my cgpa
-- tell me my fourth semester sgpa
-- tell me my gpa
-- tell me my seventh sems sgpa
-- tell me my sgpa
-- tell me third sem sgpa
-- tell me third semester sgpa
-- what is my cgpa
-- what is my gpa
-- what was my fourth sem's sgpa
-- whats my cgpa
-- what's my cgpa
 - whats my fifth semester sgpa
 - whats my first semester gpa
 - what's my first semester sgpa
+- tell me first semester gpa
+- tell me first semester sgpa
+- tell me my fourth semester sgpa
+- tell me third sem sgpa
+- tell me third semester sgpa
+
+## intent:cgpa_enquiry
+- cgpa
+- i wanna know my cgpa
+- i wanna know my gpa
+- tell me my cgpa
+- tell me my gpa
+- what is my cgpa
+- what is my gpa
+- whats my cgpa
+- what's my cgpa
 - whats my gpa
-- what's my second semester cgpa
-- what's my sgpa
 
 ## intent:suggestions
 - i wanna give a suggestion
