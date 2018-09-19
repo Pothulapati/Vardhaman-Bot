@@ -80,6 +80,22 @@
 - I wanna know my [2nd](semester) semester gpa
 - tell me my [1st](semester) semester gpa
 - I want to know my [3rd](semester) semester sgpa
+- Tell me my [1st](semester) sem gpa
+- Tell me my [2nd](semester) sem gpa
+- Tell me my [3rd](semester) sem gpa
+- Tell me my [4th](semester) sem gpa
+- [1st](semester) sem gpa
+- [2nd](semester) sem gpa
+- [3rd](semester) sem gpa
+- [4th](semester) sem gpa
+- [1st](semester) semester gpa
+- [2nd](semester) semester gpa
+- [3rd](semester) semester gpa
+- [4th](semester) semester gpa
+
+
+
+
 - Tell me my [5th](semester) semester gpa
 - [1st](semester) semester sgpa
 - [4th](semester) semester sgpa pls

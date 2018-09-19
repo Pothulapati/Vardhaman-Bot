@@ -315,6 +315,150 @@
           {
             "start": 11,
             "end": 14,
+            "value": "1st",
+            "entity": "semester"
+          }
+        ],
+        "text": "Tell me my 1st sem gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "2nd",
+            "entity": "semester"
+          }
+        ],
+        "text": "Tell me my 2nd sem gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "3rd",
+            "entity": "semester"
+          }
+        ],
+        "text": "Tell me my 3rd sem gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "4th",
+            "entity": "semester"
+          }
+        ],
+        "text": "Tell me my 4th sem gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "1st",
+            "entity": "semester"
+          }
+        ],
+        "text": "1st sem gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "2nd",
+            "entity": "semester"
+          }
+        ],
+        "text": "2nd sem gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "3rd",
+            "entity": "semester"
+          }
+        ],
+        "text": "3rd sem gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "4th",
+            "entity": "semester"
+          }
+        ],
+        "text": "4th sem gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "1st",
+            "entity": "semester"
+          }
+        ],
+        "text": "1st semester gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "2nd",
+            "entity": "semester"
+          }
+        ],
+        "text": "2nd semester gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "3rd",
+            "entity": "semester"
+          }
+        ],
+        "text": "3rd semester gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "4th",
+            "entity": "semester"
+          }
+        ],
+        "text": "4th semester gpa"
+      },
+      {
+        "intent": "sgpa_enquiry",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
             "value": "5th",
             "entity": "semester"
           }
